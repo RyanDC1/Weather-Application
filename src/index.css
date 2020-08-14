@@ -1,0 +1,131 @@
+/* Universal style property */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  background-image: url('./Assets/background.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 3s ease;
+}.App.sunny{
+  background-image: url('./Assets/Sunny.jpg');
+}.App.rainy{
+  background-image: url('./Assets/Rain.jpg');
+}.App.snowy{
+  background-image: url('./Assets/Winter.jpg');
+}.App.clouds{
+  background-image: url('./Assets/Cloudy.jpg');
+}.App.misty{
+  background-image: url('./Assets/Misty.jpg');
+}.App.haze{
+  background-image: url('./Assets/Misty.jpg');
+}
+
+/* Main body style */
+body{
+  font-family: Andale Mono, monospace;
+  font-size: 20px;
+}
+
+main{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.34));
+  padding: 50px;
+}
+
+.Logo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#icon{
+  padding-right: 20px;
+}
+
+/* Search bar */
+.Search{
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 10px;
+  display: block;
+}
+.Search .SearchBox{
+  width: 70%;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 17px;
+  opacity: 0.7;
+  border: none;
+  outline: none;
+  position: relative;
+  top: -30px;
+  border-radius: 20px 3px 20px 3px;
+  box-shadow: 4px 2px 10px;
+  transform: skewX(-5deg);
+}
+.Search .SearchBox:hover{
+  width: 71%;
+  box-shadow: 5px 8px 8px;
+}
+.Search .SearchBox:focus{
+  width: 75%;
+  box-shadow: 5px 8px 8px;
+  opacity: 0.8;
+}
+.Search Input{
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Search Icon */
+.fa-search{
+  color: gray;
+}
+.Search i{
+  position: relative;
+  top: -30px;
+  right: 50px;
+}
+
+.Location-search .Location{
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: black 3px 4px;
+}
+
+.Location-search .Date{
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: black 1px 1px;
+  font-style: italic
+}
+
+.Weather-forecast{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.Weather-forecast .Temp{
+  color: white;
+  margin: 50px auto;
+  font-size: 90px;
+  display: inline-block;
+  background-color: rgba(255,255,255,0.3);
+  padding: 60px 40px ;
+  border-radius: 20px 20px;
+  box-shadow: 2px 2px 20px 2px rgba(255,255,255,0.2);
+}
+
+.Weather-forecast .Forecast{
+  color: white;
+  font-size: 50px;
+}
