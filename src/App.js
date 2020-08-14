@@ -2,7 +2,7 @@
 import logo from './Assets/weather.png'
 
 const api ={
-  key: "",
+  key: "960ddf559e6b1a10af635dc31c5490ed",
   base: "https://api.openweathermap.org/data/2.5/"    //API call
 }
 
