@@ -20,5 +20,5 @@ https://fontawesome.com/<br>
 A few screenshots of the application.
 # Screenshots 
 
-![](https://github.com/RyanDC1/Weather-Application/blob/master/screenshots/weather.JPG)     
+![](https://github.com/RyanDC1/Weather-Application/blob/master/screenshots/weather.JPG)      
 
