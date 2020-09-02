@@ -1,4 +1,4 @@
-# Elemental Weather App 
+# Elemental Weather App  
 A Weather app created using ReactJS and OpenWeather API.
 
 # Introduction
