@@ -13,7 +13,6 @@ the city, country, the temperature and the forecast.
 **OpenWeather API** 
 <br><br>
 # Refrences:<br>
-https://www.youtube.com/watch?v=GuA0_Z1llYU -Author: Tyler Potts<br>
 https://openweathermap.org/current<br>
 https://fontawesome.com/<br>
 
